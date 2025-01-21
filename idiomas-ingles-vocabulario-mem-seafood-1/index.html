@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ceeci Platform - English: Memory Game</title>
+
+	<!-- Favicon and Touch Icons -->
+	<link href="https://inicio.ceeci.mx/web/images/ceeci-logo-solo-favicon.png" rel="shortcut icon" type="image/png">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class="main-container"> <!-- Contenedor principal -->
+		<header>
+			<img src="../base/imagenes/ceeci-plataforma-top.jpg" width="100%" />
+			<nav>
+				<div class="nav-wrapper #000000 black">
+					<div class="col s12">
+						<div class="container">
+							<a class="breadcrumb">English</a>
+							<a class="breadcrumb">Memory Game</a>
+						</div>
+					</div>
+				</div>
+			</nav> 
+		</header>
+		
+		<center>
+			<h1>Seadfood </h1><hr/>
+		</center>
+
+		<!-- Contenedor de las tarjetas -->
+		<div class="memory-game"></div>
+
+		<div id="win-message" class="win-message" style="display:none">
+			<h1>Congratulations!</h1>
+		</div>
+
+		<!-- Botón Reiniciar -->
+		<button id="reset-button" class="reset-button">Reboot</button>
+
+		<!-- Footer -->
+		<footer>
+			<p>
+				<img src="../base/imagenes/ceeci-plataforma-bottom.jpg" width="100%" />
+			</p>
+		</footer>
+	</div> <!-- Cierre del contenedor principal -->
+
+	<script src="scrip.js"></script>
+</body>
+</html>
